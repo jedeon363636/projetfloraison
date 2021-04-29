@@ -20,4 +20,6 @@ def Contact(request):
 
 def Blog(request):
     return render(request, "blog.html")
-
+#effacer
+def admin(request):
+    pass
