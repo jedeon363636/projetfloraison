@@ -21,3 +21,4 @@ def Contact(request):
 def Blog(request):
     return render(request, "blog.html")
 
+#jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
