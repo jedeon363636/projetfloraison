@@ -23,3 +23,4 @@ def Blog(request):
 #effacer
 def admin(request):
     pass
+#fvedfzsedfsdfsdfzsd
