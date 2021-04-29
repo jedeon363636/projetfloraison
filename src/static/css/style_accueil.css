@@ -1,0 +1,113 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    
+    
+
+}
+
+.header{
+    background-image: linear-gradient(90deg,#0fd850 0%, #f9f047 100%);
+    height: 80px;
+    margin: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px;
+}
+
+ul li a{
+    color: black;
+    letter-spacing: 0.1rem;
+    
+}
+
+ul li a:hover{
+    color: whitesmoke;
+}
+
+.menu li{
+    float: left;
+    padding: 35px;
+}
+.menu li a{
+    text-decoration: none;
+}
+
+form{
+    padding: 35px;
+    text-align : right;
+}
+
+input[type="recherche"]{
+    font-size: 17px;
+}
+
+#bg{
+    background-repeat: no-repeat;
+    background-size: 1800px 900px;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.conainer-first{
+    position:absolute;
+    top: 30%;
+    left:5%
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 110px;
+    color: #f9f047;
+    font-family: 'Lobster', cursive;
+
+}
+
+h1 span{
+    position: relative;
+}
+
+.logo-medias{
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    position: absolute;
+    right: 2.9%;
+    top: 4%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.medias{
+    list-style-type: none ;
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1 ;
+    cursor: pointer;
+    position: relative;
+}

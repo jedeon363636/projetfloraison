@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: whitesmoke;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    background-image: linear-gradient(90deg,#0fd850 0%, #f9f047 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-size: 18px;
+
+
+  
+}
+
+.title{
+    font-family: 'Lobster', cursive;
+    padding : 0 15px;
+    text-shadow: 0 0 5px rgb(0,0,0);
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.title-1{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+.container{
+    width : 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    padding:30px 50px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+   
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+
+
+}
+
+.form__group{
+    width:100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form__label{
+    position:absolute;
+    right:0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .3s;
+    opacity: 0;
+
+}
+
+.form__input{
+    font-size: 16px;
+    font-family: inherit;
+    padding:3px 10px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 4px solid transparent;
+    width: 100%
+}
+
+.form__input::-webkit-input-placeholder{
+    color: #000;
+    transform: translateY(4px);
+
+}
+
+.form__input:focus::-webkit-input-placeholder{
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+.form__input:focus{
+    outline: none;
+    border-bottom: 4px solid green ;
+    width: 66.6666%;
+}
+
+.form__input:focus:invalid{border-bottom: 4px solid red;}
+
+.form__input:focus + .form__label{
+    opacity: 1;
+    font-size: 20px;
+
+}
+
+.form__message, .form__message .message__input{width: 100%;}
+
+.submitBtn{
+    display: block;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    color: black;
+    text-shadow: 0 0 5px rgb(0,0,0);
+    font-family: inherit;
+    font-size: 25px;
+    border-radius: 30px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+
+.submitBtn:hover{transform: scale(1.02) translateY(-2px);}
+.submitBtn:active{transform: scale(0.98) translateY(1px);}
+
+
+
